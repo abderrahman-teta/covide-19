@@ -1,0 +1,32 @@
+.case {
+  margin: 1rem 0;
+  width: 23%;
+  margin: 1rem auto;
+  box-shadow: 0 0.3rem 1rem rgba($color: #000000, $alpha: 0.15);
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  display: flex;
+
+  .flag {
+    width: 5rem;
+    img {
+      max-width: 4rem;
+      max-height: 4rem;
+      border-radius: 50%;
+    }
+  }
+  .info {
+    p {
+      font-size: 1rem;
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+  @media screen and (max-width: 80rem) {
+    width: 48%;
+  }
+  @media screen and (max-width: 60rem) {
+    width: 90%;
+  }
+}
